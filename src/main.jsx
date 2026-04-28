@@ -2941,7 +2941,8 @@ function App() {
                   
                   <div className="gift-emoji">
                     <img 
-                      src={gift.image} 
+                      src={gift.image}
+                      loading="eager" 
                       alt={gift.title} 
                       style={{
                         width: '140px', 
